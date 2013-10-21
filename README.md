@@ -1,3 +1,5 @@
+Modified to remove pieces of the AOT for mono, to decrease the resulting size
+
 [Join the ServiceStack Google+ group](http://groups.google.com/group/servicestack) or
 follow [@ServiceStack](http://twitter.com/servicestack) for project updates.
 

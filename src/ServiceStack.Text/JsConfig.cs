@@ -638,6 +638,7 @@ namespace ServiceStack.Text
 		public static void InitForAot() { 
 		}
 
+        /* JoseA: we are not using these features, so they can be removed from our DLL.
         [MonoTouch.Foundation.Preserve]
         public static void RegisterForAot()
         {
@@ -685,7 +686,7 @@ namespace ServiceStack.Text
 			RegisterTypeForAot<DateTime?>();
 			RegisterTypeForAot<TimeSpan?>();
 			RegisterTypeForAot<Guid?>();
-        }
+        }*/
 
 		[MonoTouch.Foundation.Preserve]
 		public static void RegisterTypeForAot<T>()
